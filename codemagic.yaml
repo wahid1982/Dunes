@@ -18,12 +18,12 @@ workflows:
 
       - name: Build Android
         script: |
-          cd android && ./gradlew assembleRelease
+            # -cd android && ./gradlew assembleRelease
 
       - name: Build iOS
         script: |
           cd ios && xcodebuild -workspace YourProject.xcworkspace -scheme YourScheme -configuration Release -archivePath build/YourProject.xcarchive archive
 
     artifacts:
-      - build/outputs/apk/release/*.apk
+        # - build/outputs/apk/release/*.apk
       - ios/build/*.app
