@@ -3,8 +3,8 @@ workflows:
     name: Build and Test
     environment:
       flutter: stable
-      node: latest
-      xcode: latest
+      node: stable
+      xcode: stable
      
 
     scripts:
