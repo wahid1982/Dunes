@@ -2,7 +2,7 @@ workflows:
   build:
     name: Build and Test
     environment:
-      flutter: latest
+      flutter: stable
       node: latest
       xcode: latest
      
