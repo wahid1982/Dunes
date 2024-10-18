@@ -1,15 +1,15 @@
 {
   "name": "gonative-ios",
   "version": "1.0.2",
-  "description": "",
+  "description": "GoNative iOS project",
   "scripts": {
     "release": "./scripts/release.sh",
 	"test": "echo \"No tests specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/gonativeio/gonative-ios.git"
+    "url": "https://github.com/wahid1982/Dunes.git"
   },
   "author": "GoNative.io LLC",
-  "license": "https://gonative.io/pricing"
+  "license": "MIT"
 }
