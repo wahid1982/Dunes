@@ -3,7 +3,8 @@
   "version": "1.0.2",
   "description": "",
   "scripts": {
-    "release": "./scripts/release.sh"
+    "release": "./scripts/release.sh",
+	"test": "echo \"No tests specified\" && exit 0"
   },
   "repository": {
     "type": "git",
